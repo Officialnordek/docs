@@ -2,7 +2,7 @@
 
 Nordek is already a significantly decentralized platform and plans are in motion to achieve full community control over it in the future. Its governance is currently split among the following actors:
 
-1\) **Network Validators.** Nordek validators are entrusted with deciding whether to adopt [Nordek improvement proposals](https://docs.nordekscan.com/general/fips) (NIPs). Currently, every validator has one vote regardless of their share of the overall network stake but this is likely to change soon.
+1\) **Network Validators.** Nordek validators are entrusted with deciding whether to adopt [Nordek improvement proposals](https://docs.nordekscan.com/general/fips) (FIPs).  Currently, every validator has one vote regardless of their share of the overall network stake but this is likely to change soon.
 
 2\) **Nordek Foundation and the project team**. Like most public blockchain projects at the initial stage of development, the development of the core network protocol and the Nordek treasury that mostly consists of the undistributed genesis NRK supply (see the subsection "[NRK Supply and Current Distribution](https://docs.nordekscan.com/general/fuse-token/fuse-supply-and-current-distribution)") are currently mostly managed by a foundation. For Nordek, this role is played by Gibraltar-incorporated company Nordek Limited.
 
@@ -12,4 +12,4 @@ The project team implements network protocol updates adopted by the validators, 
 
 That said, since Nordek is a decentralized public blockchain platform, **no permission of the project team is required** for anyone who wishes to integrate with or develop on top of Nordek, including the development of the network and node software.
 
-3\) **Nordek Assembly.** See the Assembly [page](https://docs.nordekscan.com/general/fuse-governance/fuse-assembly) for more details.
+3\) **Nordek Assembly.** See the Assembly [page](https://docs.nordekscan.com/general/fuse-governance/fuse-assembly) for more details.  &#x20;

@@ -2,9 +2,9 @@
 description: The Nordek Improvement Proposal
 ---
 
-# FIP's
+# NIP's
 
-See FIP1 for more info [https://github.com/fuseio/FIPs/blob/master/FIPS/fip-1.md](https://github.com/fuseio/FIPs/blob/master/FIPS/fip-1.md)
+See NIP1 for more info [https://github.com/fuseio/FIPs/blob/master/FIPS/fip-1.md](https://github.com/Officialnordek)
 
 ### What is a NIP?
 

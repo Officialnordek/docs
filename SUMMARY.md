@@ -39,7 +39,7 @@
     * [Upgrade Guide](general-1/network-details/network-upgrades/upgrade-guide.md)
     * [Upgrade Guide (explorer nodes)](general-1/network-details/network-upgrades/upgrade-guide-explorer-nodes.md)
     * [Block 13,800,000 Fork](general-1/network-details/network-upgrades/block-13-800-000-fork.md)
-    * [FIP's](general-1/network-details/network-upgrades/fips.md)
+    * [NIP's](general-1/network-details/network-upgrades/fips.md)
 * [Nordek Consensus](general-1/fuse-consensus/README.md)
   * [Contracts Overview](general-1/fuse-consensus/contracts-overview.md)
   * [Stake, Delegate and Withdraw](general-1/fuse-consensus/stake-delegate-and-withdraw.md)

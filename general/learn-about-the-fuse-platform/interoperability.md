@@ -13,7 +13,7 @@ Hence, interoperability solutions enabling transfers between Nordek and other bl
 
 The Nordek team has been making considerable progress in getting Nordek added by the leading operators. Currently the Nordek blockchain is connected to other blockchains via the following multichain bridges and value transfer protocols:
 
-1\) The FuseFi bridge.
+1\) The Nordek bridge.
 
 2\) The Elk Finance value transfer protool.
 
