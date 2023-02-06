@@ -6,8 +6,8 @@ The basic requirement to become a Nordek chain validator is to have a stake amou
 
 There are two options to stake (both should be called from the address which would be the validator)
 
-1. 1.Send Nordek tokens to the [consensus contract](https://nordekscan.com/address/0x3014ca10b91cb3d0ad85fef7a3cb95bcac9c0f79) - 0x8db1436097E3d16DD366c138F6953Fb7ee9a96Ad on the Nordek network.
-2. 2.Call the \`stake\` function on the [consensus contract](https://nordekscan.com/address/0x3014ca10b91cb3d0ad85fef7a3cb95bcac9c0f79) - 0x8db1436097E3d16DD366c138F6953Fb7ee9a96Ad on the Nordek network.
+1. 1.Send Nordek tokens to the [consensus contract](https://nordekscan.com/address/0x3014ca10b91cb3d0ad85fef7a3cb95bcac9c0f79) - 0x8db1436097E3d16DD366c138F6953Fb7ee9a96Ad on the fuse network.
+2. 2.Call the \`stake\` function on the [consensus contract](https://nordekscan.com/address/0x3014ca10b91cb3d0ad85fef7a3cb95bcac9c0f79) - 0x8db1436097E3d16DD366c138F6953Fb7ee9a96Ad on the fuse network.
 
 ## Delegate <a href="#delegate" id="delegate"></a>
 

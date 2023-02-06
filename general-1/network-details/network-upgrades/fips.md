@@ -4,7 +4,7 @@ description: The Nordek Improvement Proposal
 
 # NIP's
 
-See NIP1 for more info [https://github.com/fuseio/FIPs/blob/master/FIPS/fip-1.md](https://github.com/Officialnordek)
+See NIP1 for more info [https://github.com/Officialnordek](https://github.com/Officialnordek)
 
 ### What is a NIP?
 
