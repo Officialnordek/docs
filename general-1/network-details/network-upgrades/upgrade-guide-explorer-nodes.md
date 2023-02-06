@@ -23,7 +23,7 @@ wget -O quickstart.sh https://raw.githubusercontent.com/PrimalDev/Nordek/master/
 
 It is highly recommended to take a back up of your database folder before attempting!.
 
-Follow the instruction here to upgrade from V13->V16 DBs [https://github.com/openethereum/3.1-db-upgrade-tool](https://github.com/openethereum/3.1-db-upgrade-tool). The data base is stored in \<path to quickstart.sh>/Nordeknet/database/NordekNetwork/db/dee77c98f8210dbb/archive
+Follow the instruction here to upgrade from V13->V16 DBs [https://github.com/openethereum/3.1-db-upgrade-tool](https://github.com/openethereum/3.1-db-upgrade-tool). The data base is stored in \<path to quickstart.sh>/fusenet/database/FuseNetwork/db/dee77c98f8210dbb/archive
 
 ### Step 4 - Update Client version in env file and rerun quickstart
 
