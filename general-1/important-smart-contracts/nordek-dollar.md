@@ -1,2 +1,0 @@
-# Nordek Dollar
-

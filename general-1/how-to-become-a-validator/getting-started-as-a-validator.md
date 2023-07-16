@@ -2,10 +2,10 @@
 
 ## Pre-requirements
 
-In order to be a Nordek validator, you first must see that you meet the pre-requirements:
+Before becoming a Nordek validator, ensure that you meet the following pre-requirements:
 
-* You know what it means to be a Nordek validator - How to become a validator
-* You have at least 100K NRK tokens or you will have an aggregated delegation of at least 100K NRK tokens (you can purchase NRK token on [Uniswap](https://uniswap.exchange/swap/0x970b9bb2c0444f5e81e9d0efb84c8ccdcdcaf84d)).
+* Understand the responsibilities and requirements of being a Nordek validator.
+* Possess a minimum of 100,000 NRK tokens or have an aggregated delegation of at least 100,000 NRK tokens. You can purchase NRK tokens on [Uniswap](https://uniswap.exchange/swap/0x970b9bb2c0444f5e81e9d0efb84c8ccdcdcaf84d).
 
 ## How to become a Nordek validator
 

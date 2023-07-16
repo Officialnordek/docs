@@ -1,17 +1,16 @@
 # NRK Tokenomics
 
-Currently, the NRK token supply is set to follow a **mildly inflationary model**. 
+Currently, the NRK token follows a **mildly inflationary model**, with the token supply increasing over time. Here are some key details regarding NRK tokenomics:
 
-With each new block created every 5 seconds on Nordek, the validator who creates it, and the delegators who staked with them, receive the block rewards in newly issued NRK tokens. This is designed to secure the network's [consensus mechanism](https://docs.nordekscan.com/general/fuse-network-blockchain/fuse-consensus). 
+* **Block Rewards:** With each new block created on Nordek, the validator who creates it and the delegators who staked with them receive block rewards in newly issued NRK tokens. This incentivizes network security and participation.
+* **Inflation Rate:** The reward amount per block is set in a way that results in an annual increase of approximately 5% in the NRK total supply. This means that each year, new NRK tokens are minted, contributing to the overall token supply.
+* **Revenue Predictability:** The choice of an inflationary model at the early development stage was made to ensure a certain level of predictability for revenue flow to network validators and delegators. Relying solely on transaction fees as rewards would introduce higher variability, as transaction activity can fluctuate significantly. Predictable validator revenue is an important assumption in the Nordek consensus mechanism.
+* **Low Transaction Fees:** By providing substantial block rewards, Nordek aims to keep transaction fees on the network low. This approach helps encourage adoption of the Nordek blockchain.
 
-The reward amount per block is currently set such that every year, the NRK total supply increases by approximately 5%.
+### Potential inflation reduction
 
-The main reason for choosing an inflationary model at the early development stage was to ensure a certain predictability of the flow of revenue for network validators and delegators. If they had to exclusively rely on transaction fees as the reward for staking NRK and validating, it would be harder for them to predict their future returns, as transaction activity on the network can fluctuate a lot. The relative predictability of validator revenue is an important assumption behind the blockchain consensus theory on which the Nordek consensus mechanism is based.  
+There is an ongoing discussion within the Nordek community regarding a proposed improvement to reduce NRK inflation. If adopted by the validators, this proposal would result in an annual inflation rate of 2% starting from the third year of the network's existence. The proposal also includes fixed amounts of tokens issued in subsequent years.&#x20;
 
-Having substantial block rewards also makes it possible to keep transaction fees on the network low, facilitating adoption of Nordek.
+You can find the text of the proposal and participate in the discussion through the link provided [here](https://forum.nordekscan.com/t/changing-fuse-network-inflation-rate/102).
 
-### Potential inflation reduction  
-
-A Nordek Improvement Proposal aimed at reducing the NRK inflation  is currently under discussion by the community. If adopted by the validators, it will result in an annual inflation rate of 2% for third year of the network's existence and a fixed amounts of tokens issued in the subsequent years.
-
-You can find the text of the proposal and the discussion [here](https://forum.nordekscan.com/t/changing-fuse-network-inflation-rate/102).   
+It's important to note that tokenomics and specific inflation rates can be subject to change based on community consensus and network development

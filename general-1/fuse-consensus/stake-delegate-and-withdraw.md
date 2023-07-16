@@ -1,13 +1,15 @@
 # Stake, Delegate and Withdraw
 
-The basic requirement to become a Nordek chain validator is to have a stake amount of at least 100,000 Nordek tokens. The stake amount is the sum of staked and delegated Nordek tokens of the address. This guide walks trough the process of using MEW (MyEtherWallet.com) in the process of using Nordek network.**Roadmap** - Those functionalities will be built into our Studio and will not require any technical knowledge in the future.
+The basic requirement to become a Nordek chain validator is to have a stake amount of at least 100,000 Nordek tokens. The stake amount is the sum of staked and delegated Nordek tokens of the address. This guide walks trough the process of using MEW (MyEtherWallet.com) in the process of using Nordek network.
+
+**Roadmap** - Those functionalities will be built into our Studio and will not require any technical knowledge in the future.
 
 ## Stake <a href="#stake" id="stake"></a>
 
 There are two options to stake (both should be called from the address which would be the validator)
 
-1. 1.Send Nordek tokens to the [consensus contract](https://nordekscan.com/address/0x3014ca10b91cb3d0ad85fef7a3cb95bcac9c0f79) - 0x8db1436097E3d16DD366c138F6953Fb7ee9a96Ad on the fuse network.
-2. 2.Call the \`stake\` function on the [consensus contract](https://nordekscan.com/address/0x3014ca10b91cb3d0ad85fef7a3cb95bcac9c0f79) - 0x8db1436097E3d16DD366c138F6953Fb7ee9a96Ad on the fuse network.
+1. Send Nordek tokens to the [consensus contract](https://nordekscan.com/address/0x3014ca10b91cb3d0ad85fef7a3cb95bcac9c0f79) - 0x8db1436097E3d16DD366c138F6953Fb7ee9a96Ad on the Nordek network.
+2. Call the \`stake\` function on the [consensus contract](https://nordekscan.com/address/0x3014ca10b91cb3d0ad85fef7a3cb95bcac9c0f79) - 0x8db1436097E3d16DD366c138F6953Fb7ee9a96Ad on the Nordek network.
 
 ## Delegate <a href="#delegate" id="delegate"></a>
 
@@ -19,8 +21,8 @@ Nordek token holders who don't want to run a node by themselves but still wish t
 
 Both stakers and validators can withdraw their Nordek tokens, up to the staked/delegated amount, at any time. The withdrawn amount will be deducted from the validator stake amount, and if the stake amount becomes below the minimum stake amount - the validator will be removed from the Nordek chain validators list.There are two options to withdraw:
 
-1. 1.Call the \`withdraw\` function on the [consensus contract](https://nordekscan.com/address/0x3014ca10b91cb3d0ad85fef7a3cb95bcac9c0f79) with one parameter - the amount to withdraw. This call is for stakers, and will reduce the stake amount of the sender address.
-2. 2.Call the \`withdraw\` function on the [consensus contract](https://nordekscan.com/address/0x3014ca10b91cb3d0ad85fef7a3cb95bcac9c0f79) with two parameters - validator address and amount to withdraw. This call is for both stakers (who can use their own address as the parameter) and for delegators to withdraw their delegated stake on a specific validator.
+1. Call the \`withdraw\` function on the [consensus contract](https://nordekscan.com/address/0x3014ca10b91cb3d0ad85fef7a3cb95bcac9c0f79) with one parameter - the amount to withdraw. This call is for stakers, and will reduce the stake amount of the sender address.
+2. Call the \`withdraw\` function on the [consensus contract](https://nordekscan.com/address/0x3014ca10b91cb3d0ad85fef7a3cb95bcac9c0f79) with two parameters - validator address and amount to withdraw. This call is for both stakers (who can use their own address as the parameter) and for delegators to withdraw their delegated stake on a specific validator.
 
 ![withdraw option no. 1](https://3886961007-files.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MQROvzQPC4eD8u5AQhv%2Fuploads%2FyBpFV4W9N9vgpGyFEr76%2Fimage.png?alt=media\&token=0f715110-4b8d-4a35-81a6-93383d903f42)
 

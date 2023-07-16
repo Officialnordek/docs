@@ -1,60 +1,55 @@
 # Nordek Consensus
 
-Consensus is a fault-tolerant mechanism that is used in blockchain systems to achieve the necessary agreement on the single state of the network. Nordek network is using a [Delegated Proof of Stake](https://en.bitcoinwiki.org/wiki/DPoS) (DPoS) consensus model. DPoS is a variation of [Proof of Stake](https://en.bitcoinwiki.org/wiki/Proof-of-stake) consensus. In PoS there are a set of validators that are responsible for keeping the network updated and validating the network's state. They do this in turns, every validator has their turn in line. On their turn the validator updates the network's state, and the rest of the validators check that the update is valid.
+Consensus is a fault-tolerant mechanism used in blockchain systems to ensure agreement on the network's single state. The Nordek network utilizes a [Delegated Proof of Stake](https://en.bitcoinwiki.org/wiki/DPoS) (DPoS) consensus model. DPoS is a variation of [Proof of Stake](https://en.bitcoinwiki.org/wiki/Proof-of-stake) consensus.&#x20;
 
-![](<../../.gitbook/assets/image (3).png>)
+In PoS, a group of validators is responsible for updating and validating the network's state. Validators take turns to update the network, while the other validators verify the validity of the updates.
 
-Consensus contract is used to manage the list of the network validators and delegators
+The Consensus contract manages the list of network validators and delegators.
 
-BlockReward contract is calculates the reward amount that validators and delegators will receive on each block validation. The reward size is proportional to validator's stake.
+The BlockReward contract calculates the reward amount that validators and delegators receive for each validated block. The size of the reward is proportional to the validator's stake.
 
-With Voting contract validators are vote on various changes on these 3 base level contracts. All those contracts are proxied with implementation that handles the logic. The implementations can be changed only by the Voting process.&#x20;
+The Voting contract allows validators to vote on various changes related to the three fundamental contracts mentioned above. These contracts are proxied with an implementation that handles the logic. Changes to the implementations can only be made through the Voting process.
 
-The bridge is used to transfer the Nordek native token between Nordek and Ethereum networks.&#x20;
+The bridge facilitates the transfer of Nordek native tokens between the Nordek and Ethereum networks.
 
 ## [Consensus - 0x3014ca10b91cb3d0ad85fef7a3cb95bcac9c0f79](https://nordekscan.com/address/0x3014ca10b91cb3d0ad85fef7a3cb95bcac9c0f79)
 
-This contract is responsible for handling the network DPos consensus. The contract stores the current validator set and chooses a new validator set at the end of each cycle. The logic for updating the validator set is to select a random snapshot from the snapshots taken during the cycle.
+This contract manages the DPos consensus of the network. It is responsible for storing the current set of validators and selecting a new validator set at the end of each cycle. The process of updating the validator set involves choosing a random snapshot from the snapshots taken during the cycle.
 
-The snapshots are taken of pending validators, who are those which staked more than the minimum stake needed to become a network validator. Therefore the contract is also responsible for staking, delegating and withdrawing those funds.
+Snapshots are taken of pending validators, who are individuals that have staked an amount greater than the minimum required to become a network validator. Additionally, this contract handles the functionalities of staking, delegating, and withdrawing funds.
 
-Stake amount for a validator is the sum of staked and delegated amount to it's address.
+The stake amount for a validator is determined by the sum of the staked amount and the delegated amount associated with its address.
 
 This contract is based on `non-reporting ValidatorSet` [described in Parity Wiki](https://wiki.parity.io/Validator-Set.html#non-reporting-contract).
 
 {% hint style="info" %}
-minimum stake amount = 100,000 Nordek token
-
-cycle duration blocks = 34560 (approximately 2 days)
+* Minimum stake amount = 100,000 Nordek token
+* Cycle duration blocks = 34560 (approximately 2 days)
 {% endhint %}
 
 ## [Block Reward - 0x7429fB101C317743369f3A161A6Ee78c3Ac45ADd](https://nordekscan.com/address/0x63d4efed2e3da070247bea3073bcab896dff6c9b)
 
-This contract is responsible for generating and distributing block rewards to the network validators according to the network specs (5% yearly inflation).
+This contract's main purpose is to generate and distribute block rewards to the network validators based on the network specifications, which include a 5% yearly inflation rate.
 
-Another role of this contract is to call the snapshot/cycle logic on the Consensus contract
+Additionally, it has the responsibility of invoking the snapshot/cycle logic on the Consensus contract.
 
-This contract is based on `BlockReward` [described in Parity Wiki](https://wiki.parity.io/Block-Reward-Contract).
+It's important to note that this contract is based on the non-reporting `BlockReward` as [described in Parity Wiki](https://wiki.parity.io/Block-Reward-Contract).
 
 ## [Voting - 0xC59D39E832316504219B7236Ea03919B9dF96FDD](https://nordekscan.com/address/0xC59D39E832316504219B7236Ea03919B9dF96FDD)
 
-This contract is responsible for opening new ballots and voting to accept/reject them. Ballots are basically offers to change other network contracts implementation.
+The primary function of this contract is to facilitate the opening of new ballots and enable voting to accept or reject proposed changes to other network contracts' implementations. Ballots essentially serve as proposals for modifying existing contracts.&#x20;
 
-Only network validators can open new ballots, everyone can vote on them, but only validators votes count when the ballot is closed.
+Only network validators have the authority to initiate new ballots, while anyone can participate in voting. However, it's important to note that only the votes from validators are considered when determining the outcome of a closed ballot.&#x20;
 
-Ballots are opened/closed on cycle end.
+The opening and closing of ballots occur at the end of each cycle.
 
 {% hint style="info" %}
-max number of open ballots = 100
-
-max number of open ballots per validator = 100 / number of validators
-
-minimum ballot duration (cycles) = 2
-
-maximum ballot duration (cycles) = 14
+* Max number of open ballots = 100
+* Max number of open ballots per validator = 100 / number of validators
+* Minimum ballot duration (cycles) = 2
+* Maximum ballot duration (cycles) = 14
 {% endhint %}
 
 ## [Proxy Storage](https://nordekscan.com/address/0x23D8634ED1B2662dC96FcE6208fde93258731333)
 
-This contract is responsible for holding network contracts implementation addresses and upgrading them if necessary (via voting).
-
+This contract plays a crucial role in managing the implementation addresses of network contracts and facilitating their upgrades when deemed necessary through a voting process.

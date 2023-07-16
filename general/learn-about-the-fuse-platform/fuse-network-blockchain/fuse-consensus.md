@@ -6,22 +6,20 @@ There are 2 aspects to the process - the actual consensus mechanism to add trans
 
 ### Sybil protection and incentives via delegated proof of stake
 
-Nordek uses delegated Proof of Stake (dPoS) to provide Sybil protection and align the validator incentives.  
+Nordek uses delegated Proof of Stake (dPoS) to provide Sybil protection and align the validator incentives.
 
-In order to participate in securing the network consensus, a node operator must stake a minimum required amount of NRK tokens (currently set at 100,000 NRK). Becoming a validator on Nordek is permissionless, meaning that a node operator just needs to satisfy certain technical requirements. The need to stake NRK ensures that an entity cannot create multiple seemingly distinct validators without incurring a significant cost. Hence, the Sybil protection. Currently, the maximum number of validators on Nordek is 100.
+To participate in securing the network consensus, a node operator must stake a minimum required amount of NRK tokens (currently set at 100,000 NRK). Becoming a validator on Nordek is permissionless, as long as the node operator meets specific technical requirements. The requirement to stake NRK tokens ensures that an entity cannot create multiple seemingly distinct validators without incurring a significant cost, thus providing Sybil protection. Currently, Nordek allows a maximum of 100 validators.
 
-The validator who publishes a block agreed upon during a given consensus round is rewarded by the network protocol in newly minted NRK tokens. They also receive the fees users paid for the transactions included into the block.
+The validator who successfully publishes a block agreed upon during a consensus round is rewarded by the network protocol with newly minted NRK tokens. Additionally, they receive the transaction fees paid by users for the transactions included in the block.
 
-Over time, validators can expect to publish a share of blocks equal to their share of the overall stake. Since NRK uses dPoS, a validator can increase their share by attracting NRK tokens from delegators. The mechanics of delegation on NRK are discussed in more detail on the [following page](https://docs.nordekscan.com/general/fuse-network-blockchain/validators-and-delegation).
+Over time, validators can expect to publish a share of blocks proportional to their overall stake. Validators can increase their share by attracting NRK tokens from delegators. The delegation mechanics on NRK are discussed in more detail in the [following page](https://docs.nordekscan.com/general/nordek-network-blockchain/validators-and-delegation).
 
-Validators who violate the consensus rules (by, for instance, not revealing random numbers) can expect their stake (including the delegators' contribution) to be frozen. This provides a strong incentive for validators to behave in the desired manner.
+Validators who violate the consensus rules, such as by not revealing random numbers, can expect their stake (including the contributions from delegators) to be frozen. This creates a strong incentive for validators to behave according to the desired rules.
 
 ### The AuRa Consensus Model
 
-Nordek currently uses Parity's AuRa (Authority Round) [consensus model](https://openethereum.github.io/Aura) to append blocks to Nordek. This consensus mechanism is also notably used by the xDAI blockchain.
+Currently, Nordek employs Parity's AuRa (Authority Round) [consensus model](https://openethereum.github.io/Aura) to append blocks. This consensus mechanism is also used by the xDAI blockchain.
 
-In this model, the validators take turns signing blocks. A signed block is broadcast to all validators, and if the majority agree it is valid, it is added to the chain. A new block is added every 5 seconds, regardless of whether any transactions occurred during that time.
+In the AuRa model, validators take turns signing blocks. Once a block is signed, it is broadcasted to all validators, and if the majority agrees that it is valid, it is added to the blockchain. A new block is added every 5 seconds, regardless of whether any transactions occurred during that time.
 
-Although, in theory, achieving transaction finality in this model may take some time, for practical purposes, a transaction on Nordek can be considered finalized after a single block confirmation.  
-
-\
+While achieving transaction finality in this model may theoretically take some time, for practical purposes, a transaction on Nordek can be considered finalized after a single block confirmation.

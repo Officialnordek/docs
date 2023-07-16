@@ -2,13 +2,10 @@
 
 ### DApp Management & Development Tools
 
-[The Graph](https://thegraph.com) supports Nordek data indexing, quierying and display.
+[The Graph](https://thegraph.com): The Graph supports Nordek data indexing, querying, and display.
 
-[Remix IDE](https://remix-project.org/): It's easy to deploy on Nordek with Remix, simply choose injected web3 and add the Nordek custom RPC to your Metamask.
+[Remix IDE](https://remix-project.org/): Easily deploy on Nordek with Remix. Simply choose "injected web3" and add the Nordek custom RPC to your MetaMask.
 
-[JustSmartContracts](https://justsmartcontracts.dev/): another smart contract deployment tool for EVM chains.&#x20;
+[JustSmartContracts](https://justsmartcontracts.dev/): Another smart contract deployment tool for EVM chains.
 
-[OpenZeppelin Defender](https://defender.openzeppelin.com): Manage smart contract administration including access controls, upgrades and pausing.
-
-
-
+[OpenZeppelin Defender](https://defender.openzeppelin.com): Manage smart contract administration, including access controls, upgrades, and pausing.

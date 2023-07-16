@@ -1,10 +1,10 @@
 # NRK on Other Chains
 
-Interoperability with other major blockchains is important for the growth of Nordek and the prospects of realizing its vision. One of the ways of securing it is through enabling the versions (wrappers) of NRK on other chains.&#x20;
+Interoperability with other major blockchains is crucial for the growth of Nordek and the realization of its vision. One way to ensure this is by facilitating the creation of wrapper versions (or tokens) of NRK on other chains.
 
-Unlinke NRK on Nordek, those wrappers are TL20 tokens are created whenever someone locks a certain number of tokens on the Nordek and gets issued the exact same amount of wrapper tokens on the target blockchain. If a user withdraws the wrapper from the target blockchain, the tokens burned and the NRK tokens on Nordek are unlocked.&#x20;
+Unlike NRK on Nordek, these wrappers are TL20 tokens that are generated when someone locks a specific number of tokens on Nordek and receives an equivalent amount of wrapper tokens on the target blockchain. If a user decides to withdraw the wrapper from the target blockchain, the tokens are burned, and the NRK tokens on Nordek become unlocked.
 
-Currently, wrapped versions of NRK token exist on Ethereum (mainnet), Binance Smart Chain and the Arbitrum One layer-2 optimistic rollup chain for Ethereum. The latter is a wrapper of a wrapper powered by the Ethereum-Arbitrum bridge and its withdrawals from Arbitrum are subject to the optimistic rollup rules.&#x20;
+Currently, wrapped versions of the NRK token exist on Ethereum (mainnet), Binance Smart Chain, and Arbitrum One, which is a layer-2 optimistic rollup chain for Ethereum. The latter functions as a wrapper of a wrapper and is powered by the Ethereum-Arbitrum bridge. Withdrawals from Arbitrum are subject to the rules of optimistic rollup.
 
 ### NRK on Ethereum
 

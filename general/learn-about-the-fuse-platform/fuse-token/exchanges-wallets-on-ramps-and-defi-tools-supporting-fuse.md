@@ -22,7 +22,7 @@ Loopring
 
 KyberSwap
 
-1inch&#x20;
+1inch
 
 DoDo
 
@@ -34,11 +34,11 @@ DoDo
 
 ## Wallets
 
-[Nordek Cash](https://fuse.c)
+[Nordek Cash](http://www.nordek.io/)
 
-Metamask
+[Metamask](https://metamask.io/)
 
-Metamask Mobile&#x20;
+Metamask Mobile
 
 [Ledger](https://ledger)
 
@@ -48,12 +48,24 @@ Metamask Mobile&#x20;
 
 Trust Wallet (Binance Smart Chain)
 
+[SafePal](https://safepal.io/)
+
+[Math Wallet](https://mathwallet.org/)
+
+[AlphaWallet](https://alphawallet.com/)
+
+[Brave Wallet](https://brave.com/wallet/)
+
+[BitKeep](https://bitkeep.com/)
+
+[TokenPocket](https://www.tokenpocket.pro/en/)
+
 ## DeFi Tools
 
 [Nordek Staking](exchanges-wallets-on-ramps-and-defi-tools-supporting-fuse.md#exchanges)
 
 [Nordek Rewards](https://rewards.nordekscan.com)
 
-[Nordek Lending Network](https://app.ola.finance/networks/0x26a562B713648d7F3D1E1031DCc0860A4F3Fa340/markets)
+[Nordek Lending Network](http://www.nordek.io/)
 
 [Staking Rewards](https://www.stakingrewards.com/)

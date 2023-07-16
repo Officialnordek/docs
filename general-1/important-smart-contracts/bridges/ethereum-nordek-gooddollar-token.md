@@ -1,2 +1,0 @@
-# Ethereum ↔ Nordek GoodDollar Token
-

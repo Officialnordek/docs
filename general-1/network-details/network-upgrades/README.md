@@ -1,9 +1,9 @@
 # Network Upgrades
 
-Major updates on the network level are introduced via forks.
+Major updates at the network level are implemented through forks.
 
 {% hint style="danger" %}
-Forks are used to introduce new functionality or fix security related issues. Node runners will receive instructions on how and when to update their nodes in the event of a fork.
+Forks are utilized to introduce new features or address security-related concerns. Node runners will receive instructions on how and when to update their nodes when a fork occurs.
 {% endhint %}
 
-Information related to forks along with upgrade information will be posted here. If any assistance is needed, feel free to reach out or ask questions through the forum or other channels.
+Details regarding forks and upgrade instructions will be shared on this platform. If you require any assistance, please don't hesitate to reach out or ask questions via the forum or other communication channels.

@@ -1,2 +1,0 @@
-# BSC ↔ Nordek TL20
-
